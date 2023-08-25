@@ -22,3 +22,12 @@
     border-left: 1px dotted #cbd5e1;
     padding-left: 10px;
 }
+
+@media screen and (max-width: 480px) {
+    .chat-container {
+        width: 80%;
+    }
+    .container-messages {
+        margin-top: 30px;
+    }
+  }

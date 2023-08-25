@@ -18,14 +18,14 @@ function App() {
     <div className="App">
       <CounterBanner></CounterBanner>
       <div className="text-container">
-         <img src={imagem} />
+         <img src={imagem} className='desconto' />
       </div>
       <VideoPlayer></VideoPlayer>
-      <div className="text-container">
-          Corra pois a oferta é por tempo limitado
+      <div className="text-container resp-text">
+        Assista o vídeo até o fim para garantir!
           <div>
             <a className='buy' hidden={!finishTimer} href="https://go.perfectpay.com.br/PPU38CN0457">
-              <img src={compra} height='80'/>
+              <img src={compra} className='buy-button' height='80'/>
             </a>
           </div>
       </div>

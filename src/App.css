@@ -47,3 +47,21 @@
 .spacing-top-x {
   margin-top: 28px;
 }
+
+
+@media screen and (max-width: 480px) {
+  .desconto {
+    width: 12em;
+  }
+  .buy-button {
+    width: 85%;
+    height: 20%;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .desconto {
+      width: 20em;
+  }
+}

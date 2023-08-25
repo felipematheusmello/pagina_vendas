@@ -13,13 +13,13 @@ function VideoPlayer() {
     return (
             <div className="container-video">
             <div className="active-video" hidden={hidden} onClick={() => {activeVideo()}}>
-                <div className="text spacing-my">
+                <div className="text spacing-my resp-txt">
                     CLIQUE PARA APRENDER A BAIXAR
                 </div>
                     <div>
                         <BiSolidVolumeMute className="sound-icon"/>
                     </div>
-                    <div className="text spacing-top-x" >
+                    <div className="text spacing-top-x resp-txt" >
                         E JA RECEBER HOJE
                     </div>
             </div>
