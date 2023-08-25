@@ -59,9 +59,3 @@
     margin-top: 10px;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .desconto {
-      width: 20em;
-  }
-}
