@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import CounterBanner from './components/counte-banner/counter-banner';
+import VideoPlayer from './components/video-player/video-player';
+import SocialProve from './components/social-prove/social-prove';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CounterBanner></CounterBanner>
+      <div className="text-container">
+          BAIXE ESSE APP E RECEBA&nbsp;
+          <span className="price">R$ 382,00 POR DIA</span>&nbsp;
+          <div className="spacing-my ">(NO MÍNIMO)</div>
+          <div>RESPONDENDO PESQUISAS DE EMPRESAS</div>
+      </div>
+      <VideoPlayer></VideoPlayer>
+      <div className="text-container">
+          Corra, pois as vagas são limitadas!
+      </div>
+      <SocialProve></SocialProve>
     </div>
   );
 }
