@@ -1,6 +1,7 @@
 video {
-    box-shadow: 1px 3px 30px 1px  #4d0253;
+    box-shadow: 2px 2px 25px 1px  rgb(1 192 13 / 77%);
     margin-top: 20px;
+
 }
 
 .active-video {
@@ -8,10 +9,9 @@ video {
     height: 18em;
     z-index: 1;
     position:absolute;
-    background-color: #9e07ac;
+    background-color: rgb(1 192 13 / 77%);
     border: 2px solid #FFFFFF;
     border-radius: 10px;
-    opacity: 90%;
 }
 
 .container-video {

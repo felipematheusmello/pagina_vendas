@@ -1,6 +1,6 @@
 import "./message.css"
 
-function Message ({ message, src, username }) {
+function Message ({ message, src, username, likes}) {
     return  (
         <>
         <div className="user-container">
@@ -21,7 +21,7 @@ function Message ({ message, src, username }) {
                 <img class="like-icon" width='20' height='20' src="https://img.imageboss.me/atm/cdn/p/l.png"/>
                 <img class="heart-icon" width='20' height='20' src="https://img.imageboss.me/atm/cdn/p/h.png"/>
                 <span class="likes">
-                40
+                {likes}
                 </span>
             </div>
         </div>

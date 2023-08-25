@@ -28,7 +28,6 @@
     display: flex;
     padding: 5px;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px  #c1c3c4;
 }
 
 .container-likes {
@@ -50,6 +49,7 @@
 
 .messages {
     color: #000000;
+    text-align: start;
 }
 
 .likes {
@@ -62,5 +62,3 @@
 .heart-icon {
     margin-left: 2px;
 }
-
-.like-icon {}

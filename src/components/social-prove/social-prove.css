@@ -2,8 +2,23 @@
     display: flex;
     width: 50%;
     flex-flow: wrap column;
-    justify-content: start;
     position: relative;
-    border-radius: 5px;
+    border-radius: 30px;
     background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.container-messages {
+    margin-top: 10rem;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: center;
+    align-items: center;
+}
+
+.response {
+    margin-left: 30px;
+    border-left: 1px dotted #cbd5e1;
+    padding-left: 10px;
 }
