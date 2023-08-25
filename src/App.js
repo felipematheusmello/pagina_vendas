@@ -14,9 +14,6 @@ function App() {
     }, 840000)
   }, [])
 
-  const click = () => {
-    console.log('clickou')
-  }
   return (
     <div className="App">
       <CounterBanner></CounterBanner>
