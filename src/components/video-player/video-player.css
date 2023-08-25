@@ -42,7 +42,7 @@ video {
 
 @media screen and (max-width: 480px) {
     video {
-      width: 16rem;
+      width: 100%;
       height: fit-content;
     }
 
