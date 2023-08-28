@@ -62,7 +62,19 @@ video {
     }
   }
 
-  video::-webkit-media-controls-panel {
+video::-webkit-media-controls-panel {
     display: none !important;
     opacity: 1 !important;
+}
+
+video::-webkit-media-controls-mute-button {
+    display: none !important;
+}
+
+video::-webkit-media-controls-play-button {
+    display: none !important;
+}
+
+video::-webkit-media-controls-volume-slider {
+    display: none !important;
 }
