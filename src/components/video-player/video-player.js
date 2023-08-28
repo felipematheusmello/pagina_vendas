@@ -10,6 +10,11 @@ function VideoPlayer() {
         setHidden(true)
         setIsMuted(false)
     }
+
+    const videoStyles = {
+        WebkitAppearance: 'none',
+      };
+
     return (
             <div className="container-video">
             <div className="active-video" hidden={hidden} onClick={() => {activeVideo()}}>
@@ -29,6 +34,7 @@ function VideoPlayer() {
                     src={video}
                     width="800"
                     playsinline
+                    style={videoStyles}
                     height="400"/>
             </div>
     )
