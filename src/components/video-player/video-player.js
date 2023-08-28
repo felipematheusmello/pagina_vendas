@@ -28,6 +28,7 @@ function VideoPlayer() {
                     autoPlay='autoplay'
                     src={video}
                     width="800"
+                    playsinline
                     height="400"/>
             </div>
     )
