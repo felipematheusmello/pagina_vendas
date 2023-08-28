@@ -29,7 +29,6 @@ function VideoPlayer() {
                     src={video}
                     width="800"
                     playsinline
-                    style="-webkit-appearance: none;"
                     height="400"/>
             </div>
     )
