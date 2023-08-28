@@ -29,14 +29,16 @@ function VideoPlayer() {
                     </div>
             </div>
             <video
-                    muted={isMuted}
-                    autoPlay='autoplay'
-                    src={video}
-                    width="800"
-                    playsinline
-                    style={videoStyles}
-                    height="400"/>
-            </div>
+                muted={isMuted}
+                autoPlay='autoplay'
+                width="800"
+                playsinline
+                style={videoStyles}
+                controls={false}
+                height="400">
+                <source src={video} type="video/mp4"/>
+            </video>
+        </div>
     )
 }
 

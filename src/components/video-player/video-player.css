@@ -1,7 +1,6 @@
 video {
     box-shadow: 2px 2px 25px 1px  rgb(1 192 13 / 77%);
     margin-top: 20px;
-
 }
 
 .active-video {
@@ -65,7 +64,13 @@ video {
 /* Hide video controls on mobile Safari */
 @media (max-width: 768px) {
     video::-webkit-media-controls {
-      display: none !important;
+        display: none !important;
+    }
+
+    video {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
     }
     video::-webkit-media-controls-panel {
         display: none !important;
