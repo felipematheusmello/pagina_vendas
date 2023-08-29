@@ -1,44 +1,8 @@
-import { useState } from "react"
 import './video-player.css'
-import video from "./opiniao_certa.mp4"
-import {BiSolidVolumeMute} from "react-icons/bi"
+
 function VideoPlayer() {
-    const [isMuted, setIsMuted] = useState('muted')
-    const [hidden, setHidden] = useState(false)
-
-    const activeVideo = () => {
-        setHidden(true)
-        setIsMuted(false)
-    }
-
-    const videoStyles = {
-        WebkitAppearance: 'none',
-      };
-
     return (
-            <div className="container-video">
-            <div className="active-video" hidden={hidden} onClick={() => {activeVideo()}}>
-                <div className="text spacing-my resp-txt">
-                    CLIQUE PARA APRENDER A BAIXAR
-                </div>
-                    <div>
-                        <BiSolidVolumeMute className="sound-icon"/>
-                    </div>
-                    <div className="text spacing-top-x resp-txt" >
-                        E JA RECEBER HOJE
-                    </div>
-            </div>
-            <video
-                muted={isMuted}
-                autoPlay='autoplay'
-                width="800"
-                playsinline
-                style={videoStyles}
-                controls={false}
-                height="400">
-                <source src={video} type="video/mp4"/>
-            </video>
-        </div>
+        <div style={{padding:"56.25% 0 0 0", position:"relative"}}><iframe frameborder="0" allowfullscreen src="https://scripts.converteai.net/26176a35-26db-48c5-b902-d63e1fe49ecb/players/64ed01167b941e0009cb7c80/embed.html" id="ifr_64ed01167b941e0009cb7c80" style={{position:"absolute",top:"0", left:"0", width:"100%",height:"100%"}} referrerpolicy="origin"></iframe></div>
     )
 }
 
