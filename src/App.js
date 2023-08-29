@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setFinishTimer(true)
-    }, 840000)
+    }, 720000)
   }, [])
 
   return (
